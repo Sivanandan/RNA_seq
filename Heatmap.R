@@ -7,7 +7,6 @@ if (!require ("RColorBrewer")){
   install.packages("RColorBrewer", dependencies = TRUE)
   library (RColorBrewer)
 }
-data <- read.table("~/Anju-LCM/COVERAGE/DESEQ-results/FDR-5/BS-NS-FDR5.txt",header=FALSE)
 WP_DE<- read.csv("~/WPN-Norm-DE.csv")
 dim(WP_DE)
 head(WP_DE)
